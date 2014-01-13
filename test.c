@@ -7,8 +7,10 @@ int main()
 	int c = a+b;
 	int d = a-b;
 	int e = a*b;
+	int f = a/b;
 	
 	printf("a + b = %i\n", c);
 	printf("a - b = %i\n", d);
 	printf("a * b = %i\n", e);
+	printf("a / b = %i\n", f);
 }
