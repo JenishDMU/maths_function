@@ -13,4 +13,14 @@ int main()
 	printf("a - b = %i\n", d);
 	printf("a * b = %i\n", e);
 	printf("a / b = %i\n", f);
+
+	int z, y;
+	do{
+		printf("Please enter your numbers: ");
+		scanf("%i %i", &z, &y);
+		printf("Average= %i\n", (z+y)/2);
+
+	}while((z>=1) && (z<=5));
+
+	return 0;
 }
